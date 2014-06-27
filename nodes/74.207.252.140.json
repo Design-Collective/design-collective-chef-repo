@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[wordpress]"
+  ],
+  "automatic": {
+    "ipaddress": "74.207.252.140"
+  }
+}
