@@ -1,0 +1,3 @@
+[submodule "cookbooks/wordpress"]
+	path = cookbooks/wordpress
+	url = git@github.com:Design-Collective/wordpress-cookbook1.git
