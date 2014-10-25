@@ -1,0 +1,14 @@
+<?php
+
+<?php
+
+global $databaseConfig;
+
+$databaseConfig = array(
+  "type" => 'MySQLDatabase',
+  "server" => 'localhost',
+  "username" => '<%= node['silverstripe']['db']['user'] %>',
+  "password" => '<%= node['silverstripe']['db']['password'] %>',
+  "database" => '<%= node['silverstripe']['db']['name'] %>',
+  "path" => '',
+);
