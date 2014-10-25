@@ -1,6 +1,6 @@
 {
   "run_list": [
-    "recipe[wordpress]"
+    "recipe[wordpress-nginx]"
   ],
   "automatic": {
     "ipaddress": "173.230.145.11"
