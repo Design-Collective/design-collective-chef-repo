@@ -1,3 +1,6 @@
 [submodule "cookbooks/nginx"]
 	path = cookbooks/nginx
 	url = https://github.com/miketheman/nginx
+[submodule "cookbooks/wordpress"]
+  path = cookbooks/wordpress
+  url = git@github.com:Design-Collective/wordpress-cookbook1.git
