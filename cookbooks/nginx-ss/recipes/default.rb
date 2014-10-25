@@ -53,14 +53,6 @@ execute "apt-get install git" do
   command "sudo /usr/bin/apt-get install git"
 end
 
-template "#{node['silverstripe']['parent_dir']}/mysite/_db.php" do
-  source '_db.php.erb'
-  owner "root"
-  group "root"
-  mode "0755"
-  action :create
-end
-
 #execute "Remove Default Index.html" do
 #  cwd node['silverstripe']['parent_dir']
 #  command "sudo rm #{node['silverstripe']['parent_dir']}/index.html"

@@ -20,7 +20,7 @@
 
 default['silverstripe']['db']['name'] = "silverstripe"
 default['silverstripe']['db']['user'] = "ss_user"
-default['silverstripe']['db']['password'] = nil
+#default['silverstripe']['db']['password'] = nil
 default['silverstripe']['db']['prefix'] = 'ss_'
 
 # General settings
